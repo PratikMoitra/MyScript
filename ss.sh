@@ -9,7 +9,7 @@ else
  FileName="${1}"
 fi
  touch $FileName
- chmod +755 $FileName
+ chmod 755 $FileName
  echo "#!/bin/bash" > $FileName
  echo >> $FileName
  echo >> $FileName
